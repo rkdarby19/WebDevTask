@@ -1,17 +1,17 @@
 <!DOCTYPE html>
+
 <html lang="en">
 	<head>
-		<title>Cover Letter</title>
+		<title>Resume</title>
 		<meta charset="utf-8">
 	</head>
 	<body>
 		<header>
-			<h1>Cover Letter</h1>
+			<h1>Resume</h1>
 		</header>
-		
+
 		<nav>
-			<a href="career-goals.html">Career Goals</a>
-			<a href="resume.html">Resume</a>
+
 		</nav>
 
 		<footer>
