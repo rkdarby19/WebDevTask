@@ -20,3 +20,7 @@ nav>ul {
 	gap: 5px;
 	border: dotted black;
 }
+form {
+	display: flex;
+
+}
