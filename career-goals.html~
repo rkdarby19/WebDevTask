@@ -23,7 +23,7 @@
 
 		</main>
 		<h4 id="reqInfo">Request Contact</h4>
-		<form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank" enctype="multipart/form-data">
+		<form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank" >
 			<label for="fName">First Name</label>
 			<input type="text" id="fName" name="fName" placeholder="Jane" required>
 			<label for="lName">Last Name</label>
@@ -44,6 +44,9 @@
 			<input type="submit">
 		</form>
 		<footer>
+			<audio controls>
+				<source src="music.mp3" autoplay>
+			</audio>
 			<p>&copy; Richard K. Darby, 2025</p>	
 		</footer>
 	</body>
