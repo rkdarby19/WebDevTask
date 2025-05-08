@@ -1,26 +1,53 @@
+* {
+	background-color: lightgray;	
+}
 h1 {
+	text-align: center;
+	font-size: 40px;
 	color: teal;
 	padding: 10px;
-	margin-left: 35px;
+	border: solid black;
 }
 nav {
 	text-align: right;
 	margin-right: 20px;
 }
 nav h3 {
+	font-size: 24px;
 	margin-right: 60px;
-	color: violet;
+	color: darkgreen;
 }
 nav>ul {
 	display: flex;
+	font-size: 22px;
 	list-style-type:none;
 	justify: center;
 	float: right;
-	padding-right: 25px;
+	padding-right: 35px;
 	gap: 5px;
 	border: dotted black;
 }
 form {
 	display: flex;
-
+	text-align: center;
+	margin-left: 140px;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 150px;
+}
+form button[submit]{
+	text-align: center;
+}
+footer {
+	text-align: center;
+	font-size; 10px;
+}
+#BLUF {
+	font-size: 20px;
+	padding: 5px;
+	color: #3344FF;
+	width: 750px;
+}
+#reqInfo {
+	margin-left: 160px;
 }
