@@ -4,6 +4,7 @@
 	<head>
 		<title>Resume</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="master.css">
 	</head>
 	<body>
 		<header>
@@ -11,10 +12,77 @@
 		</header>
 
 		<nav>
-
+			<a href="career-goals.html">Career Goals</a>
+			<a href="cover-letter.html">Cover Letter</a>
 		</nav>
 
+		<main>
+			<h2>Work Experience</h2>
+
+
+			<section id="navy">
+				<h3>US Navy</h3>
+				<p>With experience as a <strong><em>Korean Linguist/Intelligence Analyst</em></strong> and <strong><em>Military Recruiter</em></strong>, Richard Darby had an exemplary military career</p>
+			</section>
+			<section id="helac">
+				<h3>Parker-Hannifin</h3>
+				<p>Working with heavy machinery including <span class="skills">forklifts</span> and <span class="skills">overhead cranes</span> to handle loading and offloading deliveries, preparing product pallets, and managing inventory Richard Darby displayed his competency in a wide variety of areas</p>
+			</section>
+			<section id="foss">
+				<h3>Foss Maritime</h3>
+				<p>With responsibilites including <span class="skills">electrical, hydraulic, mechanical, and refrigeration systems</span> Richard Darby gained experience in a demanding high pressure field.</p>
+			</section>
+			<section id="jobLinks">
+				<h4>Job Sites</h4>
+				<ul>
+					<li><a href="https://navy.com" target="_blank">US Navy</a></li>
+					<li><a href="https://www.parker.com" target="_blank">Parker-Hannifin</a></li>
+					<li><a href="https://www.foss.com" target="_blank">Foss Maritime</a></li>
+				</ul>
+
+			</section>
+		
+			<section id="jobTable">
+			<table>
+				<caption>Job Overview</caption>
+				<tr>
+					<th>Job Title</th>
+					<th>Company</th>
+					<th>Dates of Employment</th>
+					<th>Location</th>
+				</tr>
+				<tr>
+					<td>Korean Linguist</td>
+					<td>US Navy</td>
+					<td>Feb 2017 - Jan 2025</td>
+					<td>Seongnam, South Korea </td>
+				</tr>
+				<tr>
+					<td>Assistant Engineer</td>
+					<td>Foss Maritime</td>
+					<td>June 2013 - June 2014</td>
+					<td>Seattle, WA</td>
+				</tr>
+			
+			</table>
+			<h2>Company Info</h2>
+			<article>
+				<h4>US Navy</h4>
+				<p>The United States is a maritime nation, and the U.S. Navy protects America at sea. Alongside our allies and partners, we defend freedom, preserve economic prosperity, and keep the seas open and free.(CITATION NEEDED: https://www.navy.com/)</p>
+			</article>
+			<article>
+				<h4>Parker-Hannifin</h4>
+				<p>Parker Hannifin is a Fortune 250 global leader in motion and control technologies. Parker team members see a vast number of engineering challenges that are yet to be solved and can make a meaningful difference in people's lives. For more than a century the company has engineered the success of its customers in a wide range of diversified industrial and aerospace markets. The engineering in Parker products may not be visible, but can be found on and around virtually everything that moves.(CITATION NEEDED: https://www.parker.com/us/en/about-parker.html)</p>
+			</article>
+			<article>
+				<h4>Foss Maritime</h4>
+				<p>Since 1889, Foss Maritime has set the standard for marine transportation with leading edge technology and engineering.  Whether it’s solving transportation challenges in remote parts of the world or efficiently handling everyday harbor jobs, Foss Maritime combines a global reach with local expertise, and prides itself on always offering customers safe and innovative solutions.(CITATION NEEDED: https://www.foss.com/)</p>
+			</article>
+			</section>
+		</main>
+
 		<footer>
+			<p>&copy; Richard Kellin Darby, 2025</p>
 
 		</footer>
 	</body>

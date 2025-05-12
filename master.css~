@@ -8,13 +8,18 @@ h1 {
 	padding: 10px;
 	border: solid black;
 }
+h2 {
+	margin-left: 150px;
+	font-size: 32px;
+	color: darkgreen;
+}
 nav {
 	text-align: right;
 	margin-right: 20px;
 }
 nav h3 {
 	font-size: 24px;
-	margin-right: 60px;
+	margin-right: 75px;
 	color: darkgreen;
 }
 nav>ul {
@@ -26,6 +31,9 @@ nav>ul {
 	padding-right: 35px;
 	gap: 5px;
 	border: dotted black;
+}
+table, tr, th, td {
+	border: 1px solid blue;
 }
 form {
 	display: flex;
@@ -41,6 +49,10 @@ form button[submit]{
 footer {
 	text-align: center;
 	font-size; 10px;
+}
+.skills {
+	font-weight: bold;
+	color: darkblue;
 }
 #BLUF {
 	font-size: 20px;

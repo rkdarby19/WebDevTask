@@ -3,9 +3,21 @@
 	<head>
 		<title>Cover Letter</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="master.css">
 	</head>
 	<body>
-		<h1>Cover Letter</h1>
+		<header>
+			<h1>Cover Letter</h1>
+		</header>
+		
+		<nav>
+			<a href="career-goals.html">Career Goals</a>
+			<a href="resume.html">Resume</a>
+		</nav>
+
+		<footer>
+
+		</footer>
 	</body>
 
 </html>
