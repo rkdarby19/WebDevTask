@@ -17,6 +17,12 @@ nav {
 	text-align: right;
 	margin-right: 20px;
 }
+#dateToday {
+	padding: 10px;
+	font-size: 22px;
+	text-shadow: 4px 4px 4px darkgreen, -4px -4px 4px darkgreen;
+	font-weight: bold;
+}
 nav h3 {
 	font-size: 24px;
 	margin-right: 75px;
