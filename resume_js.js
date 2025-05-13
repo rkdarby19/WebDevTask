@@ -7,5 +7,6 @@ function getTodaysDate(){
 	
 	today = mm + '/' + dd + '/' + yyyy;
 	document.getElementById("dateToday").innerHTML = today;
+	return true;
 }
-getTodaysDate();
+console.log("Created today's date: " + getTodaysDate());
