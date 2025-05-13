@@ -28,6 +28,10 @@ nav h3 {
 	margin-right: 75px;
 	color: darkgreen;
 }
+mark {
+	background-color: yellow;
+	color: black;
+}
 nav>ul {
 	display: flex;
 	font-size: 22px;
@@ -40,6 +44,10 @@ nav>ul {
 }
 table, tr, th, td {
 	border: 1px solid blue;
+}
+.addr {
+	margin-left: 15px;
+	font-family: 'Brush Script MT';
 }
 form {
 	display: flex;

@@ -24,14 +24,33 @@
 
 			<section id="navy">
 				<h3>US Navy</h3>
+				<section id="navyAddr" class="addr">
+					<p>101 37th Ave SE #A1<br>
+					   Puyallup, WA 98374<br>
+					</p>
+				</section>
+				<hr>
 				<p>With experience as a <strong><em>Korean Linguist/Intelligence Analyst</em></strong> and <strong><em>Military Recruiter</em></strong>, Richard Darby had an exemplary military career</p>
 			</section>
 			<section id="helac">
 				<h3>Parker-Hannifin</h3>
+				<hr>
+				<section id="helacAddr" class="addr">
+					<p>225 Battersby Ave.<br>
+					   Enumclaw, WA 98022<br>
+					</p>
+				</section>
 				<p>Working with heavy machinery including <span class="skills">forklifts</span> and <span class="skills">overhead cranes</span> to handle loading and offloading deliveries, preparing product pallets, and managing inventory Richard Darby displayed his competency in a wide variety of areas</p>
 			</section>
 			<section id="foss">
 				<h3>Foss Maritime</h3>
+				<hr>
+				<section id="fossAddr" class="addr">
+					<p>450 Alaskan Way S<br>
+					   Unit 706<br>
+					   Seattle, WA 98104<br>
+					</p>
+				</section>
 				<p>With responsibilites including <span class="skills">electrical, hydraulic, mechanical, and refrigeration systems</span> Richard Darby gained experience in a demanding high pressure field.</p>
 			</section>
 			<section id="jobLinks">
