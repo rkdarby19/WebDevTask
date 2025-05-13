@@ -45,10 +45,50 @@ nav>ul {
 table, tr, th, td {
 	border: 1px solid blue;
 }
-.addr {
-	margin-left: 15px;
-	font-family: 'Brush Script MT', cursive;
+table {
+	margin-left: 25px;
 }
+#quals {
+	display: flex;
+	margin-left: 100px;
+}
+#csQuals {
+}
+#oQuals {
+}
+#closing {
+	display: flex;
+	width: 650px;
+	flex-wrap: wrap;
+	font-size: 20px;
+	font-style: bold;
+	font-style: italic;
+	color: darkblue;
+	margin-left: 50px;
+	margin-top: 25px;
+	font-family: georgia;
+	border: solid 2px green;
+}
+#closing > p {
+	padding: 15px;
+	text-align: center;
+}
+.addr {
+	display: flex;
+	justify-content: center;
+	width: 200px;
+	border: solid black 1px;
+	margin-left: 15px;
+	font-family: 'Brush Script MT';
+}
+#fullName {
+	text-align: left;
+	margin-left: 25px;
+	font-size: 22px;
+	color: teal;
+	font-style: italic;
+}
+
 form {
 	display: flex;
 	text-align: center;
@@ -57,12 +97,25 @@ form {
 	flex-wrap: wrap;
 	width: 150px;
 }
-form button[submit]{
+#submit{
 	text-align: center;
+	background-color: lightblue;
+
+}
+#submit:hover {
+	background-color: blue;
+	cursor: pointer;
 }
 footer {
 	text-align: center;
 	font-size; 10px;
+}
+#intro {
+	display: flex;
+	border: 1px green solid;
+	width: 900px;
+	padding: 5px;
+	box-shadow: 2px 2px 5px darkgreen;
 }
 .skills {
 	font-weight: bold;

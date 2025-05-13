@@ -4,10 +4,16 @@
 		<title>Cover Letter</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="master.css">
+		<script src="resume_js.js" defer></script>
 	</head>
 	<body>
 		<header>
 			<h1>Cover Letter</h1>
+			<h6 id="fullName">Richard Kellin Darby</h6>
+			<div id="dateToday"></div>
+			<p class="addr">1600 Pennsylvania Ave NW<br>
+			Washington, DC 20500<br></p>
+			<hr>
 		</header>
 		
 		<nav>
@@ -16,19 +22,90 @@
 		</nav>
 
 		<main>
+			<section id="intro">
 			<p>As a dedicated Navy professional with a rich background in
-linguistics, I am seeking to transition into the software engineering
-field. My desire for intellectual stimulation, combined with a
-lifelong commitment to learning and a passion for problemsolving,
-aligns perfectly with the dynamic and evolving nature of
-technology. I aim to leverage my analytical skills and disciplined
-work ethic along with my passion for cybersecurity and computer
-science, continually expanding my technical expertise while
-making impactful contributions to the industry.</p>	
-
+			<mark>linguistics</mark>, I am seeking to transition into the <mark>software engineering
+			field</mark>.<br> 
+			My desire for intellectual stimulation, combined with a
+			lifelong commitment to <em><strong>learning</strong></em> and a passion for <em><strong>problemsolving</strong></em>,
+			aligns<br>perfectly with the dynamic and evolving nature of
+			technology.
+			I aim to leverage my <span class="skills">analytical skills</span> and disciplined
+			<span class="skills">work ethic</span> along<br> with my <span class="skills">passion</span> for <strong>cybersecurity</strong> and <strong>computer
+				science</strong>, continually expanding my technical expertise while
+			making impactful<br> contributions to the industry.</p>	
+			</section>
+			<section id="qualifications">
+				<h2 id="csQuals">Qualifications and Experience</h2>
+				<article id="quals">
+					<table>
+						<caption>Tech Skills</caption>
+						<tr>
+							<th>Skill</th>
+							<th>Experience Level</th>
+						</tr>
+						<tr>
+							<td>Java</td>
+							<td>Intermediate</td>
+						</tr>
+						<tr>
+							<td>Python</td>
+							<td>Beginner</td>
+						</tr>
+						<tr>
+							<td>HTML/CSS/JavaScript</td>
+							<td>Beginner</td>
+						</tr>
+						<tr>
+							<td>C/C++</td>
+							<td>Intermediate</td>
+						</tr>
+						<tr>
+							<td>Git</td>
+							<td>Beginner</td>
+						</tr>
+					</table>
+					<table id="oQuals">
+						<caption>Other Skills</caption>
+						<tr>
+							<th>Skill</th>
+						</tr>
+						<tr>
+							<td>Leadership</td>
+						</tr>
+						<tr>
+							<td>Management</td>
+						</tr>
+						<tr>
+							<td>Problem Solving</td>
+						</tr>
+						<tr>
+							<td>Electrical Systems</td>
+						</tr>
+						<tr>
+							<td>Mechanical Systems</td>
+						</tr>
+						<tr>
+							<td>Refrigeration Systems</td>
+						</tr>
+						<tr>
+							<td>Hydraulic Systems</td>
+						</tr>
+						<tr>
+							<td>Communication</td>
+						</tr>
+						<tr>
+							<td>Korean</td>
+						</tr>
+					</table>
+				</article>
+			</section>
+			<section id="callToAction">
+				<p>With my desire to continuously improve myself and help those around me I will continue to show my potential and capabilities in whatever role I find myself in. If hired for this position I will bring all of my enthusiasm and experience and make a positive impact on the organization.</p>
+			</section>
 		</main>
 		<footer>
-
+			<p>&copy; Richard Kellin Darby, 2025</p>
 		</footer>
 	</body>
 
